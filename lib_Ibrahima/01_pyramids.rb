@@ -90,10 +90,14 @@ def perform
 	end
 
 	#appel des fonctions
-	#half_pyramid(etage)
-	#full_pyramid(etage)
-	#wtf_pyramid #appel de la fonction sans argument
-	wtf_pyramid_bonus
+	half_pyramid(etage)
+	full_pyramid(etage)
+
+	#N.B: si tu veux tester la fonction wtf_pyramid ou wtf_pyramid_bonus;
+	#il faut mettre en commentaire tout le perform sauf la fonction en question : MERCI 	;)
+
+	wtf_pyramid #appel de la fonction sans argument
+	wtf_pyramid_bonus #appel de la fonction sans argument
 end
 perform
 
